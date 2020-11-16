@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass+Mono:400,700');
+@import url('https://fonts.googleapis.com/css?family=Quattrocento');
+
+
+body {
+    font-family: 'Overpass Mono', monospace;
+}
+
+.illustration {
+    width: 40vw;
+    position: absolute;
+}
+
+/*---------------------------Mobile Nav--------------------------*/
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#212529' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-light .navbar-toggler {
+  color: #212529;
+  border-color: #212529;
+}
+
+.nav-item {
+    color: #212529;
+}
+
+.nav-link {
+    color: #212529 !important;
+    font-weight: 300;
+    text-align: right;
+        }
+.dropdown-item {
+    text-align: right;
+}
+
+ /* Fix for dropdown alignment problem on large devices */
+@media (max-width: 992px) { 
+    .dropdown-menu {
+        left: auto !important;
+        right: 0px !important;
+    }
+}
+
+nav {
+    z-index: 10;
+}
+
+/*----------------------------------------------------------*/
+
+.titlecontainer{
+    border-top: 0.75vw solid #212529;
+    border-left: 0.75vw solid #212529;
+    width: 95.5vw;
+}
+
+.titletext {
+    text-align: right;
+    font-weight: 700;
+    font-size: 25vw;
+    line-height: 22vw;
+    padding-top: 0.5vw;
+}
+
+
+
+.vertline {
+    position: absolute;
+    height: 15vw;
+    border: 2px solid #212529;
+    margin-left: 50vw;
+    margin-top: 70vh;
+}
+
+
+.sechead {
+    font-size: 4vw;
+}
+
+.sectext {
+    font-family: 'Quattrocento', serif;
+}
+
+img {
+    transition: all 0.5s;
+    width: 140px;
+    height: 100px;
+    margin: 2px;
+    align-items: center;
+}
+
+img:hover {
+    transform: scale(1.2) rotate(172deg);
+}
